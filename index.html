@@ -22,16 +22,27 @@
         <!-- b) Несколько строк о себе: где учишься или работаешь, хобби, увлечения. Используй тег для абзаца. Длина строки должна быть больше 50-ти симвов (пробелы и др знаки припинания тоже считаются символом) -->
          <p>I am learning now in IT INCUBATOR. I like it very well. Want to learn as much as i can, to become the good frontend developer. At this particular moment my English is not very well, so i  try to improve it. I`m trying to watch my favorites movies in English. To relax i usually listen to the music.</p>
         <!-- c) Фото (или любую картинку из интернета). Не забудь добавить описание на случай, если изображение не загрузится -->
-         <img src="./images/nature.jpg" width="400" height="600" alt="image of nature">
+         <img src="./images/study.jpg" width="600" height="400" alt="image of nature">
     </section>
 
     <section data-cy="hw1-section-about-pre">
         <!-- 2) В этом разделе создай выпадающий список с разными городами (не меньше 3-х). Свой город сделай вторым в этом списке. С помощью специального атрибута, сделай так, чтобы твой город всегда был выбранным по умолчанию  -->
+         <select name="city" id="city">
+            <option value="london">London</option>
+            <option value="vilnius" selected>Vilnius</option>
+            <option value="oslo">Oslo</option>
+         </select>
         <div data-cy="hw1-unordered-list-box-pre">
             <!-- 3) В этом разделе создай 2 дочерних элемента: -->
 
             <!-- a) Заголовок 2-го уровня (любимые книги/фильмы/блюда/страны... и т.п.) -->
+             <h2>Favorites countries</h2>
             <!-- b) Маркированный список. В списке должно быть не менее 3-х элементов -->
+             <ul>
+                <li>Lithuania</li>
+                <li>England</li>
+                <li>Italy</li>
+             </ul>
         </div>
         <div data-cy="hw1-ordered-list-box-pre">
             <!-- 3) В этом разделе создай 2 дочерних элемента: -->
